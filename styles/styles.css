@@ -1,0 +1,25 @@
+/* 
+#4985FF  
+#323232 
+#999999
+##E0E0E0
+#ffffff
+#000000
+#c4c4c4
+#f6f6f6
+#a1a1a1
+
+ */
+:root {
+  --main-font: "Mostserrat", sans-serif;
+  --main-text-color: #999999;
+  --main-bg-color: #ffffff;
+}
+body {
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.56;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
