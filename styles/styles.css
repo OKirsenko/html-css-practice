@@ -14,6 +14,8 @@
   --main-font: "Mostserrat", sans-serif;
   --main-text-color: #999999;
   --main-bg-color: #ffffff;
+  --white-text-color: #ffffff;
+  --black-text-color: #323232;
 }
 body {
   font-family: var(--main-font);
@@ -22,4 +24,32 @@ body {
   line-height: 1.56;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.text-white {
+  color: var(--white-text-color);
+}
+.text-black {
+  color: var(--black-text-color);
+}
+.header {
+  background-color: var(--main-text-color);
+}
+.nav .list {
+  display: flex;
+}
+.header .item {
+  margin-right: 20px;
+}
+.header .item:last-child {
+  margin-right: 0;
 }
